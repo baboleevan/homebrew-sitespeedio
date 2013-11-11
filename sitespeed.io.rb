@@ -12,7 +12,8 @@ class SitespeedIo < Formula
     prefix.install_metafiles
     bin.install('bin/sitespeed.io')
     bin.install('bin/sitespeed-sites.io')
-    prefix.install Dir['*']
+    prefix.install Dir['report']
+    prefix.install Dir['dependencies']
   end
 
   test do
