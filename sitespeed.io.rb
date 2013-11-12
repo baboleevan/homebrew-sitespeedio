@@ -2,7 +2,6 @@ require 'formula'
 
 class SitespeedIo < Formula
   depends_on 'phantomjs'
-  ## depends_on 'browsertime' => :recommended
   homepage 'http://www.sitespeed.io'
   url 'https://github.com/sitespeedio/sitespeed.io/releases/download/v2.2/sitespeed.io-2.2.tar.gz'
   sha1 '465b2248d25e1a844a566e2dc93bca57c1dbcb91'
