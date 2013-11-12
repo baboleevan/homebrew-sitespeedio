@@ -5,7 +5,7 @@ class SitespeedIo < Formula
   homepage 'http://www.sitespeed.io'
   version '2.2-beta-1'  
   url 'https://github.com/sitespeedio/sitespeed.io/releases/download/v2.1.2/sitespeed.io-2.2.tar.gz'
-  sha1 '1cb717de04e4929be371bea64f97524c661af142'
+  sha1 '476a37544243622e484c800c7cc5cf74212aaea0'
   
   def install
     prefix.install_metafiles
