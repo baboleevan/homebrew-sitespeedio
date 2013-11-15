@@ -3,8 +3,8 @@ require 'formula'
 class SitespeedIo < Formula
   depends_on 'phantomjs'
   homepage 'http://www.sitespeed.io'
-  url 'https://github.com/sitespeedio/sitespeed.io/releases/download/v2.2.1/sitespeed.io-2.2.1.tar.gz'
-  sha1 '4580c337a3799a7d48aa234c32ed0060c0e745c4'
+  url 'https://github.com/sitespeedio/sitespeed.io/releases/download/v2.2.2/sitespeed.io-2.2.2.tar.gz'
+  sha1 '0029e1d2702445580f001172e0899d2afb80afa7'
 
   def install
     prefix.install_metafiles
